@@ -42,7 +42,7 @@ useer = "NaN"
 
 # --------------------------------------------------------------------------------------------------------- #
 
-@Chizuru.on_message(filters.command(["play"], prefixes=["/","."]))
+@Chizuru.on_message(filters.command(["oynat"], prefixes=["/","."]))
 async def play(_, message):
     global que
     global useer    
